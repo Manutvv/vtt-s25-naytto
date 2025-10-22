@@ -1,0 +1,765 @@
+:root {
+  --väli-1x: 10px;
+  --leveys-sivu: 1400;
+  font-family: "inter", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-size: 18px;
+}
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:any-link {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sivun__sisalto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sivun-ylapalkki {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000000;
+  height: 85px;
+}
+
+.seven-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.nine__pt {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivuston-otsikko {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+}
+
+.sivun__otsikko::after {
+  content: "|";
+  padding-left: 5px;
+}
+
+.sivun-ylapalkki__okiea {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  width: 310px;
+  padding-right: 145px;
+}
+
+.Aesthetic__otsikko {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.sivun-paapalkki__otsikko {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+.line__ikoni {
+  display: flex;
+  flex-direction: column;
+  padding-right: 7px;
+}
+
+.line__ikoni img {
+  width: 100px;
+}
+
+.sivun-paapalkki__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  width: 358px;
+  line-height: 32px;
+}
+
+.account__otsikko {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.manage__otsikko {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  font-size: 24px;
+}
+
+.manage__ikoni {
+  display: flex;
+  flex-direction: row;
+}
+
+.manage__ikoni img {
+  width: 100px;
+  padding-bottom: 100px;
+}
+
+.account__ikoni {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+}
+
+.Authenticate__ikoni {
+  display: flex;
+  flex-direction: row;
+  padding-right: 8px;
+}
+
+.Authenticate__ikoni img {
+  width: 100px;
+  padding-bottom: 100px;
+}
+
+.support__ikoni {
+  display: flex;
+  flex-direction: row;
+}
+
+.support__ikoni img {
+  width: 100px;
+  padding-bottom: 100px;
+}
+
+.Authenticate__pt1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.support__pt2 {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.account__ikoni img {
+  width: 100px;
+}
+
+.sivun-paapalkki__ikoni {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.Aesthetic {
+  display: flex;
+  flex-direction: row;
+  max-width: 250px;
+}
+
+.Aesthetic__ikoni {
+  display: flex;
+  flex-direction: row;
+}
+
+.Aesthetic__ikoni img {
+  width: 46px;
+}
+
+.sivun-paapalkki__ikoni img {
+  width: 100px;
+  padding-bottom: 100px;
+}
+
+.use-aesthetic__text {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.billing__otsikko {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.change__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 288px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.Authenticate__otsikko {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+}
+
+.sivun__otsikko {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  align-items: center;
+}
+
+.set-up__text {
+  display: flex;
+  flex-direction: column;
+  width: 294px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.support__otsikko {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.get-in__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.alapalkki__otsikko {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.start-trial__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pricing__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Download__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogi__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.help-center__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+}
+
+.Release-notes__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.status__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.Community__otsikko {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.sivun-alapalkki__text__pt1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.twitter__teksti {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkedin__teksti {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.dribble__teksti {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.podcast__teksti {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.sivun-alapalkki__otsikko {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 22px;
+}
+
+.sivun-alapalkki__text__pt2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.configure__text {
+  display: flex;
+  flex-direction: row;
+  width: 321px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.about-us__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook__teksti {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.career__text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.legal__text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.contact-us__text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+.email__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright__otsikko {
+  display: flex;
+  flex-direction: column;
+}
+
+.Copyright__ikoni {
+  display: flex;
+}
+
+.Copyright__ikoni img {
+  width: 30px;
+}
+
+.studio__teksti {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-rights__teksti {
+  display: flex;
+  flex-direction: column;
+}
+
+.sivun-ylapalkki__link {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.sivun-ylapalkki__help-center {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.forth-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-search-bar {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 5px;
+  padding: 13px;
+  height: 25px;
+  font-size: 24px;
+  color: gray;
+}
+
+.sivun-ylapalkki__submit-button {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  height: 45px;
+
+  background-color: rgb(25, 26, 27);
+  color: #fff;
+
+  border-color: white;
+  border-radius: 4px;
+  border: 1px solid;
+
+  font-size: 24px;
+
+  width: 200px;
+  margin-left: 1rem;
+
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.sivun-ylapalkki__sign-in {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  height: 45px;
+
+  background-color: #4c5fd5;
+  border-radius: 4px;
+  border: none;
+  font-size: 24px;
+
+  color: #fff;
+
+  width: 110px;
+  margin-left: 1rem;
+
+  justify-content: space-around;
+
+  cursor: pointer;
+}
+
+.headers__ikons {
+  display: none;
+  flex-direction: row;
+}
+
+.media__ikoni {
+  display: none;
+  flex-direction: row;
+}
+
+.media__ikoni img {
+  width: 30px;
+}
+
+.burger__menu {
+  display: none;
+}
+
+.burger__menu img {
+  width: 30px;
+}
+
+.div__conector {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sivun-paapalkki {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Main__div {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 65px;
+}
+
+.sivun-paapalkki__sisalt {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-class {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivun-ylapalkki__nappit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 210;
+}
+
+.sivun-paapalkki__how-can-they-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 63vh;
+}
+
+.org__mang {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 65px;
+}
+
+.sivun-paapalkki__hakukohta {
+  display: flex;
+  flex-direction: column;
+}
+
+.sivun-paapalkki__how-can-we-help {
+  display: flex;
+  flex-direction: row;
+  font-size: 80px;
+  margin: 0 0 1rem;
+  font-weight: 400;
+}
+
+.sivun-paapalkki__first-page {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 100%;
+  padding: 16px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
+
+.sivun-paapalkki__sisältö {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  border-radius: 4px;
+}
+
+.sivun-paapalkki__using-aesthetic {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding-right: 197px;
+}
+
+.second-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 169px;
+  padding-bottom: 180px;
+  padding-left: 61px;
+}
+
+.sivun-paapalkki__learn-more {
+  display: flex;
+  flex-direction: row;
+  color: #4c5fd5;
+}
+
+.sivun-paapalkki__manage {
+  display: flex;
+  flex-direction: column;
+  padding-right: 112px;
+}
+
+.sivun-paapalkki__link {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivun-paapalkki__organization {
+  display: flex;
+  flex-direction: column;
+  padding-right: 41px;
+  padding-left: 14px;
+  width: 388px;
+}
+
+.sivun-paapalkki__billing {
+  display: flex;
+  flex-direction: column;
+  padding-right: 144px;
+}
+
+.sivun-paapalkki__authenticate {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+}
+
+.Authenticate__support {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8rem;
+}
+
+.sivun-paapalkki__support {
+  display: flex;
+  flex-direction: column;
+}
+
+.sivun-alapalkki {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #000000;
+  color: #fff;
+  align-items: center;
+  height: 410px;
+}
+
+.the-six__part {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 190px;
+}
+
+.sivun-ylapalkki__haku-kenta {
+  display: flex;
+  flex-direction: column;
+}
+
+.search__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dadbf1;
+  height: 66vh;
+}
+
+.sivun-alapalkki__aesthetic {
+  display: flex;
+  flex-direction: column;
+}
+
+.sivun-alapalkki__sisalt {
+  display: flex;
+  flex-direction: column;
+}
+
+.Resources__otsikko {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.sivun-alapalkki__link {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+
+.sivun-alapalkki__resources {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 173px;
+}
+
+.sivun-alapalkki__blogi {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivun-alapalkki__help-center {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivun-alapalkki__release-notes {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivun-alapalkki__status {
+  display: flex;
+  flex-direction: row;
+}
+
+.sivun-alapalkki__community {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 158px;
+}
+
+.sivun-alapalkki__company {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 137px;
+}
+
+.sivun-alapalkki__tekija {
+  display: flex;
+  flex-direction: column;
+}
+
+.sivun-alapalkki__teksti {
+  flex-direction: row;
+  display: flex;
+}
